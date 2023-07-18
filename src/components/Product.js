@@ -13,7 +13,7 @@ import {
 } from "reactstrap";
 import { FaStar } from "react-icons/fa6";
 import { useDispatch } from "react-redux";
-import { add } from "../reduxToolkit/store/cartItemSlice";
+import { add } from "../reduxToolkit/cartItemSlice";
 
 const Product = () => {
   const [products, getProducts] = useState([]);

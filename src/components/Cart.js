@@ -12,7 +12,7 @@ import {
   ListGroup,
   Row,
 } from "reactstrap";
-import { remove } from "../reduxToolkit/store/cartItemSlice";
+import { remove } from "../reduxToolkit/cartItemSlice";
 
 const Cart = () => {
   const productsInCart = useSelector((state) => state.cart);
